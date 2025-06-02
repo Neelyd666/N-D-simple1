@@ -4,7 +4,12 @@
     "name": "My Simkl List",
     "description": "Custom movie list from Simkl, viewed in Stremio.",
     "resources": [
-        "catalog"
+        {
+            "name": "catalog",
+            "type": "movie",
+            "id": "simkl",
+            "url": "https://neelyd666.github.io/N-D-simple1/catalog.json"
+        }
     ],
     "types": [
         "movie"
