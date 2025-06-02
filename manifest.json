@@ -1,0 +1,23 @@
+{
+    "id": "community.simkl.catalog",
+    "version": "1.0.0",
+    "name": "My Simkl List",
+    "description": "Custom movie list from Simkl, viewed in Stremio.",
+    "resources": [
+        "catalog"
+    ],
+    "types": [
+        "movie"
+    ],
+    "catalogs": [
+        {
+            "type": "movie",
+            "id": "simkl",
+            "name": "My Simkl List"
+        }
+    ],
+    "idPrefixes": [
+        "tt",
+        "tmdb"
+    ]
+}
